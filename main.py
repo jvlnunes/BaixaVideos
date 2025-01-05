@@ -1,19 +1,15 @@
 from functions import *
 
 urls = [
-        'https://www.youtube.com/watch?v=gd2nlpGr9u4&ab_channel=PMM'  ,
-        'https://www.youtube.com/watch?v=ODPqIix0tU0&ab_channel=PMM'  ,
-        'https://www.youtube.com/watch?v=8jTXr2mwiWQ&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=GMnV6jsDwlQ&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=yHbR-KtJC9I&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=n--UDPEG_Xc&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=9NqWHAacMBQ&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=vV196a3vaaY&ab_channel=Leod' ,
-        'https://www.youtube.com/watch?v=jfSRqd9De8A&ab_channel=Leod'
+        'https://www.youtube.com/watch?v=o6O3sgnyY9g&ab_channel=S%CE%94%E2%80%A0IERF',
+        'https://www.youtube.com/watch?v=-lxZulr2Ak8&ab_channel=GabrielMzero',
+        'https://www.youtube.com/watch?v=5VkqPqr45U4&ab_channel=GabrielMzero',
+        'https://www.youtube.com/watch?v=GMYMhrS00fY&ab_channel=GabrielMzero',
+        'https://www.youtube.com/watch?v=lWUBUrNNfPM&ab_channel=GabrielMzero',      
     ]
 
-path_pasta_download = 'C:/Users/jv/Music'
+path_pasta_download = 'C:/Users/jv/Music/Baixadas'
 
 for url in urls:
-    download_audio(url, path_pasta_download)
+    download_audio(url, path_pasta_download, 'wav')
     
