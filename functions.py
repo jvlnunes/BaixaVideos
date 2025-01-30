@@ -45,7 +45,7 @@ def download_video(url):
 
 def download_audio(url, output_path, format='.mp3'):
     try:
-        video = YouTube(url).streams.filter(only_audio=True).first()
+        video = YouTube(url,use_oauth=True).streams.filter(only_audio=True).first()
         title = clean_filename(video.title)
 
         temp_file = video.download(output_path=output_path, filename=title+".mp4")
