@@ -1,10 +1,10 @@
 from functions import *
 
 urls = [
-        'https://www.youtube.com/watch?v=PTtxF46h1Ig&ab_channel=Revibes-Topic'          
+        'https://www.youtube.com/watch?v=9vMh9f41pqE&list=RD9vMh9f41pqE&start_radio=1'
     ]
 
-path_pasta_download = 'C://Users//jv//Music//Baixadas//Novos'
+path_pasta_download = 'downloads'
 # verifica_arquivo(file_path)
 
 for url in urls:
